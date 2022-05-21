@@ -1,0 +1,35 @@
+{
+  "name": "daily-spoon-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pringle97/Daily-Spoon-Schedule.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pringle97/Daily-Spoon-Schedule/issues"
+  },
+  "homepage": "https://github.com/pringle97/Daily-Spoon-Schedule#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local-sequelize": "^0.9.0",
+    "seed": "^0.4.4",
+    "sequelize": "^6.12.4"
+  }
+}
